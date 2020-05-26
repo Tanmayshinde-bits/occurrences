@@ -1,0 +1,15 @@
+string=input("Enter a string:")                                     #takes a string(word) as an input
+char = input("Please enter your own Character : ")                  # takes the character of ehich the frequency that has to be calculated
+count = 0                                                           # initializes count to 0  
+for i in range(len(string)):                                         # intialization of for loop
+    if(string[i] == char):                                          # initialization of if condition
+        count = count + 1                                           # increases the value of count by 1 
+print("The total Number of Times ", char, " has Occurred = " , count)        # gives the output by taking it from the total of counts
+
+
+
+
+Output:
+Enter a string:Mycaptain
+Please enter your own Character : a
+The total Number of Times  a has Occurred =  2
